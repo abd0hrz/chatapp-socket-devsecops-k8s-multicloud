@@ -5,7 +5,7 @@ metadata:
 spec:
   acme:
     server: https://acme-v02.api.letsencrypt.org/directory
-    email: admin@ahmadraza.in
+    email: admin@abd0hrz.in
     privateKeySecretRef:
       name: letsencrypt-prod
     solvers:
@@ -14,5 +14,3 @@ spec:
             class: azure-application-gateway 
 
 
-## INstalll CertManager before issue (check for latest vers)
-# kubectl apply -f https://github.com/cert-manager/cert-manager/releases/download/v1.14.0/cert-manager.yaml
