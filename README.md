@@ -181,7 +181,6 @@ kubectl apply -f kubernetes/<target-environment>/
 
 ---
 
-
 ## 🤝 **Contributing**
 We welcome contributions! Please follow these steps:
 1. Fork the repository.
