@@ -7,9 +7,9 @@ metadata:
     kubernetes.io/ingress.class: alb
     alb.ingress.kubernetes.io/scheme: internet-facing
     alb.ingress.kubernetes.io/target-type: ip
-    alb.ingress.kubernetes.io/certificate-arn: arn:aws:acm:<region>:<account-id>:certificate/<your-acm-cert-id> # Replace with ACM ARN if using ACM 
+    alb.ingress.kubernetes.io/certificate-arn: arn:aws:acm:<region>:<account-id>:certificate/<your-acm-cert-id> 
   rules:
-    - host: chatapi.ahmadraza.in
+    - host: chatapi.abd0hrz.in
       http:
         paths:
           - path: /
@@ -19,7 +19,7 @@ metadata:
                 name: chat-app-backend-service
                 port:
                   number: 80
-    - host: chat.ahmadraza.in
+    - host: chat.abd0hrz.in
       http:
         paths:
           - path: /
