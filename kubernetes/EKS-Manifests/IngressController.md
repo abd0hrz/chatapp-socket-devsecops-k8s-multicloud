@@ -1,4 +1,4 @@
-
+### **Step 1: Install the AWS Load Balancer (ALB) Controller**
 1. **Create an IAM Policy for ALB Controller**:
    Attach this policy to a new or existing IAM role used by the Kubernetes service account.
 
