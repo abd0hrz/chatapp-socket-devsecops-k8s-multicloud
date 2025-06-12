@@ -154,7 +154,7 @@ kubernetes/
 
 ### **2. Clone the Repository**
 ```bash
-git clone https://github.com/ahmadrazalab/ChatApp.git
+git clone https://github.com/abd0hrz/ChatApp.git
 cd ChatApp
 ```
 
