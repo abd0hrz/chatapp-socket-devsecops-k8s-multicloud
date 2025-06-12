@@ -11,11 +11,11 @@ spec:
   ingressClassName: azure-application-gateway
   tls:
     - hosts:
-        - chat.ahmadraza.in
-        - chatapi.ahmadraza.in
+        - chat.abd0hrz.in
+        - chatapi.abd0hrz.in
       secretName: tls-secret
   rules:
-    - host: chat.ahmadraza.in
+    - host: chat.abd0hrz.in
       http:
         paths:
           - path: /
@@ -26,7 +26,7 @@ spec:
                 port:
                   number: 80
 
-    - host: chatapi.ahmadraza.in
+    - host: chatapi.abd0hrz.in
       http:
         paths:
           - path: /
@@ -37,16 +37,7 @@ spec:
                 port:
                   number: 80
 
-    # - host: nginx.ahmadraza.in  # New rule for nginx
-    #   http:
-    #     paths:
-    #       - path: /
-    #         pathType: Prefix
-    #         backend:
-    #           service:
-    #             name: nginx-service
-    #             port:
-    #               number: 80
+
 
 
 
