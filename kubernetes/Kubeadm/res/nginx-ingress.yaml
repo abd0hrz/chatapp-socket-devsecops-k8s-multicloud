@@ -1,5 +1,4 @@
-# Install ingress controller 
-# kubectl apply -f https://raw.githubusercontent.com/kubernetes/ingress-nginx/main/deploy/static/provider/kind/deploy.yaml
+
 
 
 apiVersion: networking.k8s.io/v1
@@ -16,11 +15,11 @@ spec:
   ingressClassName: nginx
   tls:
   - hosts:
-      - "chat8api.ahmadraza.in"
-      - "chat8.ahmadraza.in"
+      - "chat8api.abd0hrz.in"
+      - "chat8.abd0hrz.in"
     secretName: tls-secret
   rules:
-    - host: chat8api.ahmadraza.in
+    - host: chat8api.abd0hrz.in
       http:
         paths:
           - path: /
@@ -30,7 +29,7 @@ spec:
                 name: chat-app-backend-service
                 port:
                   number: 80
-    - host: chat8.ahmadraza.in
+    - host: chat8.abd0hrz.in
       http:
         paths:
           - path: /
