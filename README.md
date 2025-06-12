@@ -189,11 +189,3 @@ We welcome contributions! Please follow these steps:
 3. Submit a pull request.
 
 ---
-
-## 📝 **License**
-This project is licensed under the MIT License.
-
----
-
-For more visit my blog [docs.ahmadraza.in](https://docs.ahmadraza.in).  
-**Note:** Only give information; detailed guides are available on my blog site.
