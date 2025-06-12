@@ -94,12 +94,4 @@ Apply the manifest:
 kubectl apply -f pvc-test.yaml
 ```
 
-Verify that a volume is created:
-```bash
-kubectl get pvc
-kubectl get pv
-```
 
----
-
-For detailed configuration and advanced setups, visit [AWS EBS CSI Driver documentation](https://docs.aws.amazon.com/eks/latest/userguide/ebs-csi.html) or [docs.ahmadraza.in](https://docs.ahmadraza.in).
