@@ -94,4 +94,10 @@ Apply the manifest:
 kubectl apply -f pvc-test.yaml
 ```
 
+Verify that a volume is created:
+```bash
+kubectl get pvc
+kubectl get pv
+```
 
+---
