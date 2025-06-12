@@ -14,4 +14,6 @@ spec:
             class: alb
 
 
+## INstalll CertManager before issue (check for latest vers)
+# kubectl apply -f https://github.com/cert-manager/cert-manager/releases/download/v1.14.0/cert-manager.yaml
 
